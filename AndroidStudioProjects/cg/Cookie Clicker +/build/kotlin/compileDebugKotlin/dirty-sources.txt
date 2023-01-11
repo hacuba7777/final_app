@@ -1,0 +1,8 @@
+C:\Users\yoyo\AndroidStudioProjects\OpenCookieClicker-master\Cookie Clicker +\src\main\java\com\example\cookieclicker\MainActivity.kt
+C:\Users\yoyo\AndroidStudioProjects\OpenCookieClicker-master\Cookie Clicker +\src\main\java\com\example\cookieclicker\ui\main\MainFragment.kt
+C:\Users\yoyo\AndroidStudioProjects\OpenCookieClicker-master\Cookie Clicker +\src\main\java\com\example\cookieclicker\ui\main\MainViewModel.kt
+C:\Users\yoyo\AndroidStudioProjects\OpenCookieClicker-master\Cookie Clicker +\src\main\java\com\example\cookieclicker\DBclass.kt
+C:\Users\yoyo\AndroidStudioProjects\OpenCookieClicker-master\Cookie Clicker +\src\main\java\com\example\cookieclicker\UpgradesActivity.kt
+C:\Users\yoyo\AndroidStudioProjects\OpenCookieClicker-master\Cookie Clicker +\src\main\java\com\example\cookieclicker\MainActivity2.kt
+C:\Users\yoyo\AndroidStudioProjects\OpenCookieClicker-master\Cookie Clicker +\src\main\java\com\example\cookieclicker\SettingsActivity.kt
+C:\Users\yoyo\AndroidStudioProjects\OpenCookieClicker-master\Cookie Clicker +\src\main\java\com\example\cookieclicker\CookieData.kt

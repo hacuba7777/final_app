@@ -1,0 +1,301 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="gd.rf.konggdev.cookieclicker"
+4    android:versionCode="1"
+5    android:versionName="1.4" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->C:\Users\kakeru\Downloads\learngit-master\AndroidStudioProjects\cg\Cookie Clicker +\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->C:\Users\kakeru\Downloads\learngit-master\AndroidStudioProjects\cg\Cookie Clicker +\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+11-->[com.google.firebase:firebase-inappmessaging:20.2.0] C:\Users\kakeru\.gradle\caches\transforms-2\files-2.1\a79ec9766a28c195c3a24ee0287e18a5\jetified-firebase-inappmessaging-20.2.0\AndroidManifest.xml:9:5-79
+11-->[com.google.firebase:firebase-inappmessaging:20.2.0] C:\Users\kakeru\.gradle\caches\transforms-2\files-2.1\a79ec9766a28c195c3a24ee0287e18a5\jetified-firebase-inappmessaging-20.2.0\AndroidManifest.xml:9:22-76
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->[com.google.firebase:firebase-inappmessaging:20.2.0] C:\Users\kakeru\.gradle\caches\transforms-2\files-2.1\a79ec9766a28c195c3a24ee0287e18a5\jetified-firebase-inappmessaging-20.2.0\AndroidManifest.xml:10:5-67
+12-->[com.google.firebase:firebase-inappmessaging:20.2.0] C:\Users\kakeru\.gradle\caches\transforms-2\files-2.1\a79ec9766a28c195c3a24ee0287e18a5\jetified-firebase-inappmessaging-20.2.0\AndroidManifest.xml:10:22-64
+13    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+13-->[com.google.firebase:firebase-messaging:23.1.1] C:\Users\kakeru\.gradle\caches\transforms-2\files-2.1\e18860313e3851d9c4e8aef569f97db9\jetified-firebase-messaging-23.1.1\AndroidManifest.xml:25:5-77
+13-->[com.google.firebase:firebase-messaging:23.1.1] C:\Users\kakeru\.gradle\caches\transforms-2\files-2.1\e18860313e3851d9c4e8aef569f97db9\jetified-firebase-messaging-23.1.1\AndroidManifest.xml:25:22-74
+14    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+14-->[com.google.firebase:firebase-messaging:23.1.1] C:\Users\kakeru\.gradle\caches\transforms-2\files-2.1\e18860313e3851d9c4e8aef569f97db9\jetified-firebase-messaging-23.1.1\AndroidManifest.xml:26:5-68
+14-->[com.google.firebase:firebase-messaging:23.1.1] C:\Users\kakeru\.gradle\caches\transforms-2\files-2.1\e18860313e3851d9c4e8aef569f97db9\jetified-firebase-messaging-23.1.1\AndroidManifest.xml:26:22-65
+15    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+15-->[com.google.firebase:firebase-messaging:23.1.1] C:\Users\kakeru\.gradle\caches\transforms-2\files-2.1\e18860313e3851d9c4e8aef569f97db9\jetified-firebase-messaging-23.1.1\AndroidManifest.xml:28:5-82
+15-->[com.google.firebase:firebase-messaging:23.1.1] C:\Users\kakeru\.gradle\caches\transforms-2\files-2.1\e18860313e3851d9c4e8aef569f97db9\jetified-firebase-messaging-23.1.1\AndroidManifest.xml:28:22-79
+16    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+16-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\kakeru\.gradle\caches\transforms-2\files-2.1\749dc7dabc05dc73580b362935d48af5\jetified-play-services-measurement-api-21.2.0\AndroidManifest.xml:25:5-79
+16-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\kakeru\.gradle\caches\transforms-2\files-2.1\749dc7dabc05dc73580b362935d48af5\jetified-play-services-measurement-api-21.2.0\AndroidManifest.xml:25:22-76
+17    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+17-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\kakeru\.gradle\caches\transforms-2\files-2.1\42e3c21a0c9f6453ebfc493f9dd17e8c\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:26:5-110
+17-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\kakeru\.gradle\caches\transforms-2\files-2.1\42e3c21a0c9f6453ebfc493f9dd17e8c\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:26:22-107
+18
+19    <application
+19-->C:\Users\kakeru\Downloads\learngit-master\AndroidStudioProjects\cg\Cookie Clicker +\src\main\AndroidManifest.xml:5:5-37:19
+20        android:allowBackup="true"
+20-->C:\Users\kakeru\Downloads\learngit-master\AndroidStudioProjects\cg\Cookie Clicker +\src\main\AndroidManifest.xml:6:9-35
+21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+21-->[androidx.core:core:1.3.2] C:\Users\kakeru\.gradle\caches\transforms-2\files-2.1\057757636fb10b4b6144d4a3888e6ac4\core-1.3.2\AndroidManifest.xml:24:18-86
+22        android:debuggable="true"
+23        android:extractNativeLibs="false"
+24        android:icon="@mipmap/ic_launcher"
+24-->C:\Users\kakeru\Downloads\learngit-master\AndroidStudioProjects\cg\Cookie Clicker +\src\main\AndroidManifest.xml:7:9-43
+25        android:label="期末小遊戲"
+25-->C:\Users\kakeru\Downloads\learngit-master\AndroidStudioProjects\cg\Cookie Clicker +\src\main\AndroidManifest.xml:8:9-30
+26        android:roundIcon="@mipmap/ic_launcher_round"
+26-->C:\Users\kakeru\Downloads\learngit-master\AndroidStudioProjects\cg\Cookie Clicker +\src\main\AndroidManifest.xml:9:9-54
+27        android:supportsRtl="true"
+27-->C:\Users\kakeru\Downloads\learngit-master\AndroidStudioProjects\cg\Cookie Clicker +\src\main\AndroidManifest.xml:10:9-35
+28        android:testOnly="true"
+29        android:theme="@style/Theme.CookieClicker" >
+29-->C:\Users\kakeru\Downloads\learngit-master\AndroidStudioProjects\cg\Cookie Clicker +\src\main\AndroidManifest.xml:11:9-51
+30        <activity
+30-->C:\Users\kakeru\Downloads\learngit-master\AndroidStudioProjects\cg\Cookie Clicker +\src\main\AndroidManifest.xml:12:9-18:20
+31            android:name="com.example.cookieclicker.rank"
+31-->C:\Users\kakeru\Downloads\learngit-master\AndroidStudioProjects\cg\Cookie Clicker +\src\main\AndroidManifest.xml:13:13-33
+32            android:exported="false" >
+32-->C:\Users\kakeru\Downloads\learngit-master\AndroidStudioProjects\cg\Cookie Clicker +\src\main\AndroidManifest.xml:14:13-37
+33            <meta-data
+33-->C:\Users\kakeru\Downloads\learngit-master\AndroidStudioProjects\cg\Cookie Clicker +\src\main\AndroidManifest.xml:15:13-17:36
+34                android:name="android.app.lib_name"
+34-->C:\Users\kakeru\Downloads\learngit-master\AndroidStudioProjects\cg\Cookie Clicker +\src\main\AndroidManifest.xml:16:17-52
+35                android:value="" />
+35-->C:\Users\kakeru\Downloads\learngit-master\AndroidStudioProjects\cg\Cookie Clicker +\src\main\AndroidManifest.xml:17:17-33
+36        </activity>
+37        <!-- <activity -->
+38        <!-- android:name=".MainActivity2" -->
+39        <!-- android:exported="false"> -->
+40        <!-- <meta-data -->
+41        <!-- android:name="android.app.lib_name" -->
+42        <!-- android:value="" /> -->
+43        <!-- </activity> -->
+44        <activity
+44-->C:\Users\kakeru\Downloads\learngit-master\AndroidStudioProjects\cg\Cookie Clicker +\src\main\AndroidManifest.xml:26:9-34:20
+45            android:name="com.example.cookieclicker.MainActivity2"
+45-->C:\Users\kakeru\Downloads\learngit-master\AndroidStudioProjects\cg\Cookie Clicker +\src\main\AndroidManifest.xml:27:13-42
+46            android:exported="true" >
+46-->C:\Users\kakeru\Downloads\learngit-master\AndroidStudioProjects\cg\Cookie Clicker +\src\main\AndroidManifest.xml:28:13-36
+47            <intent-filter>
+47-->C:\Users\kakeru\Downloads\learngit-master\AndroidStudioProjects\cg\Cookie Clicker +\src\main\AndroidManifest.xml:29:13-33:29
+48                <action android:name="android.intent.action.MAIN" />
+48-->C:\Users\kakeru\Downloads\learngit-master\AndroidStudioProjects\cg\Cookie Clicker +\src\main\AndroidManifest.xml:30:17-69
+48-->C:\Users\kakeru\Downloads\learngit-master\AndroidStudioProjects\cg\Cookie Clicker +\src\main\AndroidManifest.xml:30:25-66
+49
+50                <category android:name="android.intent.category.LAUNCHER" />
+50-->C:\Users\kakeru\Downloads\learngit-master\AndroidStudioProjects\cg\Cookie Clicker +\src\main\AndroidManifest.xml:32:17-77
+50-->C:\Users\kakeru\Downloads\learngit-master\AndroidStudioProjects\cg\Cookie Clicker +\src\main\AndroidManifest.xml:32:27-74
+51            </intent-filter>
+52        </activity>
+53        <activity android:name="com.example.cookieclicker.UpgradesActivity" />
+53-->C:\Users\kakeru\Downloads\learngit-master\AndroidStudioProjects\cg\Cookie Clicker +\src\main\AndroidManifest.xml:35:9-54
+53-->C:\Users\kakeru\Downloads\learngit-master\AndroidStudioProjects\cg\Cookie Clicker +\src\main\AndroidManifest.xml:35:19-51
+54        <activity android:name="com.example.cookieclicker.SettingsActivity" />
+54-->C:\Users\kakeru\Downloads\learngit-master\AndroidStudioProjects\cg\Cookie Clicker +\src\main\AndroidManifest.xml:36:9-54
+54-->C:\Users\kakeru\Downloads\learngit-master\AndroidStudioProjects\cg\Cookie Clicker +\src\main\AndroidManifest.xml:36:19-51
+55
+56        <service
+56-->[com.google.firebase:firebase-inappmessaging-ktx:20.2.0] C:\Users\kakeru\.gradle\caches\transforms-2\files-2.1\e4e738bbacd4e32043a0071f2b8b25da\jetified-firebase-inappmessaging-ktx-20.2.0\AndroidManifest.xml:11:9-17:19
+57            android:name="com.google.firebase.components.ComponentDiscoveryService"
+57-->[com.google.firebase:firebase-inappmessaging-ktx:20.2.0] C:\Users\kakeru\.gradle\caches\transforms-2\files-2.1\e4e738bbacd4e32043a0071f2b8b25da\jetified-firebase-inappmessaging-ktx-20.2.0\AndroidManifest.xml:12:13-84
+58            android:directBootAware="true"
+58-->[com.google.firebase:firebase-common:20.2.0] C:\Users\kakeru\.gradle\caches\transforms-2\files-2.1\6f966732780f95878af82cf7ed15d58a\jetified-firebase-common-20.2.0\AndroidManifest.xml:34:13-43
+59            android:exported="false" >
+59-->[com.google.firebase:firebase-inappmessaging-ktx:20.2.0] C:\Users\kakeru\.gradle\caches\transforms-2\files-2.1\e4e738bbacd4e32043a0071f2b8b25da\jetified-firebase-inappmessaging-ktx-20.2.0\AndroidManifest.xml:13:13-37
+60            <meta-data
+60-->[com.google.firebase:firebase-inappmessaging-ktx:20.2.0] C:\Users\kakeru\.gradle\caches\transforms-2\files-2.1\e4e738bbacd4e32043a0071f2b8b25da\jetified-firebase-inappmessaging-ktx-20.2.0\AndroidManifest.xml:14:13-16:85
+61                android:name="com.google.firebase.components:com.google.firebase.inappmessaging.ktx.FirebaseInAppMessagingKtxRegistrar"
+61-->[com.google.firebase:firebase-inappmessaging-ktx:20.2.0] C:\Users\kakeru\.gradle\caches\transforms-2\files-2.1\e4e738bbacd4e32043a0071f2b8b25da\jetified-firebase-inappmessaging-ktx-20.2.0\AndroidManifest.xml:15:17-136
+62                android:value="com.google.firebase.components.ComponentRegistrar" />
+62-->[com.google.firebase:firebase-inappmessaging-ktx:20.2.0] C:\Users\kakeru\.gradle\caches\transforms-2\files-2.1\e4e738bbacd4e32043a0071f2b8b25da\jetified-firebase-inappmessaging-ktx-20.2.0\AndroidManifest.xml:16:17-82
+63            <meta-data
+63-->[com.google.firebase:firebase-inappmessaging:20.2.0] C:\Users\kakeru\.gradle\caches\transforms-2\files-2.1\a79ec9766a28c195c3a24ee0287e18a5\jetified-firebase-inappmessaging-20.2.0\AndroidManifest.xml:16:13-18:85
+64                android:name="com.google.firebase.components:com.google.firebase.inappmessaging.FirebaseInAppMessagingRegistrar"
+64-->[com.google.firebase:firebase-inappmessaging:20.2.0] C:\Users\kakeru\.gradle\caches\transforms-2\files-2.1\a79ec9766a28c195c3a24ee0287e18a5\jetified-firebase-inappmessaging-20.2.0\AndroidManifest.xml:17:17-129
+65                android:value="com.google.firebase.components.ComponentRegistrar" />
+65-->[com.google.firebase:firebase-inappmessaging:20.2.0] C:\Users\kakeru\.gradle\caches\transforms-2\files-2.1\a79ec9766a28c195c3a24ee0287e18a5\jetified-firebase-inappmessaging-20.2.0\AndroidManifest.xml:18:17-82
+66            <meta-data
+66-->[com.google.firebase:firebase-analytics-ktx:21.2.0] C:\Users\kakeru\.gradle\caches\transforms-2\files-2.1\2826f0619cc805fc4e6477c8f86283a9\jetified-firebase-analytics-ktx-21.2.0\AndroidManifest.xml:11:13-13:85
+67                android:name="com.google.firebase.components:com.google.firebase.analytics.ktx.FirebaseAnalyticsKtxRegistrar"
+67-->[com.google.firebase:firebase-analytics-ktx:21.2.0] C:\Users\kakeru\.gradle\caches\transforms-2\files-2.1\2826f0619cc805fc4e6477c8f86283a9\jetified-firebase-analytics-ktx-21.2.0\AndroidManifest.xml:12:17-126
+68                android:value="com.google.firebase.components.ComponentRegistrar" />
+68-->[com.google.firebase:firebase-analytics-ktx:21.2.0] C:\Users\kakeru\.gradle\caches\transforms-2\files-2.1\2826f0619cc805fc4e6477c8f86283a9\jetified-firebase-analytics-ktx-21.2.0\AndroidManifest.xml:13:17-82
+69            <meta-data
+69-->[com.google.firebase:firebase-messaging-ktx:23.1.1] C:\Users\kakeru\.gradle\caches\transforms-2\files-2.1\7645b732d2fddf1383a789e1b9a3c039\jetified-firebase-messaging-ktx-23.1.1\AndroidManifest.xml:28:13-30:85
+70                android:name="com.google.firebase.components:com.google.firebase.messaging.ktx.FirebaseMessagingKtxRegistrar"
+70-->[com.google.firebase:firebase-messaging-ktx:23.1.1] C:\Users\kakeru\.gradle\caches\transforms-2\files-2.1\7645b732d2fddf1383a789e1b9a3c039\jetified-firebase-messaging-ktx-23.1.1\AndroidManifest.xml:29:17-126
+71                android:value="com.google.firebase.components.ComponentRegistrar" />
+71-->[com.google.firebase:firebase-messaging-ktx:23.1.1] C:\Users\kakeru\.gradle\caches\transforms-2\files-2.1\7645b732d2fddf1383a789e1b9a3c039\jetified-firebase-messaging-ktx-23.1.1\AndroidManifest.xml:30:17-82
+72            <meta-data
+72-->[com.google.firebase:firebase-common-ktx:20.2.0] C:\Users\kakeru\.gradle\caches\transforms-2\files-2.1\aff7dcd6e00ddc33651696397bf018cb\jetified-firebase-common-ktx-20.2.0\AndroidManifest.xml:14:13-16:85
+73                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
+73-->[com.google.firebase:firebase-common-ktx:20.2.0] C:\Users\kakeru\.gradle\caches\transforms-2\files-2.1\aff7dcd6e00ddc33651696397bf018cb\jetified-firebase-common-ktx-20.2.0\AndroidManifest.xml:15:17-113
+74                android:value="com.google.firebase.components.ComponentRegistrar" />
+74-->[com.google.firebase:firebase-common-ktx:20.2.0] C:\Users\kakeru\.gradle\caches\transforms-2\files-2.1\aff7dcd6e00ddc33651696397bf018cb\jetified-firebase-common-ktx-20.2.0\AndroidManifest.xml:16:17-82
+75            <meta-data
+75-->[com.google.firebase:firebase-messaging:23.1.1] C:\Users\kakeru\.gradle\caches\transforms-2\files-2.1\e18860313e3851d9c4e8aef569f97db9\jetified-firebase-messaging-23.1.1\AndroidManifest.xml:55:13-57:85
+76                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+76-->[com.google.firebase:firebase-messaging:23.1.1] C:\Users\kakeru\.gradle\caches\transforms-2\files-2.1\e18860313e3851d9c4e8aef569f97db9\jetified-firebase-messaging-23.1.1\AndroidManifest.xml:56:17-119
+77                android:value="com.google.firebase.components.ComponentRegistrar" />
+77-->[com.google.firebase:firebase-messaging:23.1.1] C:\Users\kakeru\.gradle\caches\transforms-2\files-2.1\e18860313e3851d9c4e8aef569f97db9\jetified-firebase-messaging-23.1.1\AndroidManifest.xml:57:17-82
+78            <meta-data
+78-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\kakeru\.gradle\caches\transforms-2\files-2.1\749dc7dabc05dc73580b362935d48af5\jetified-play-services-measurement-api-21.2.0\AndroidManifest.xml:31:13-33:85
+79                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+79-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\kakeru\.gradle\caches\transforms-2\files-2.1\749dc7dabc05dc73580b362935d48af5\jetified-play-services-measurement-api-21.2.0\AndroidManifest.xml:32:17-139
+80                android:value="com.google.firebase.components.ComponentRegistrar" />
+80-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\kakeru\.gradle\caches\transforms-2\files-2.1\749dc7dabc05dc73580b362935d48af5\jetified-play-services-measurement-api-21.2.0\AndroidManifest.xml:33:17-82
+81            <meta-data
+81-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\kakeru\.gradle\caches\transforms-2\files-2.1\d291b81e205ea8b89759e8b4508b741a\jetified-firebase-datatransport-18.1.7\AndroidManifest.xml:27:13-29:85
+82                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+82-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\kakeru\.gradle\caches\transforms-2\files-2.1\d291b81e205ea8b89759e8b4508b741a\jetified-firebase-datatransport-18.1.7\AndroidManifest.xml:28:17-115
+83                android:value="com.google.firebase.components.ComponentRegistrar" />
+83-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\kakeru\.gradle\caches\transforms-2\files-2.1\d291b81e205ea8b89759e8b4508b741a\jetified-firebase-datatransport-18.1.7\AndroidManifest.xml:29:17-82
+84            <meta-data
+84-->[com.google.firebase:firebase-installations:17.1.0] C:\Users\kakeru\.gradle\caches\transforms-2\files-2.1\a16f7dcf6867394b794d4149d4c8a249\jetified-firebase-installations-17.1.0\AndroidManifest.xml:17:13-19:85
+85                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+85-->[com.google.firebase:firebase-installations:17.1.0] C:\Users\kakeru\.gradle\caches\transforms-2\files-2.1\a16f7dcf6867394b794d4149d4c8a249\jetified-firebase-installations-17.1.0\AndroidManifest.xml:18:17-127
+86                android:value="com.google.firebase.components.ComponentRegistrar" />
+86-->[com.google.firebase:firebase-installations:17.1.0] C:\Users\kakeru\.gradle\caches\transforms-2\files-2.1\a16f7dcf6867394b794d4149d4c8a249\jetified-firebase-installations-17.1.0\AndroidManifest.xml:19:17-82
+87            <meta-data
+87-->[com.google.firebase:firebase-abt:21.1.0] C:\Users\kakeru\.gradle\caches\transforms-2\files-2.1\e7348755f82b8bcc00de80ad0ef75efc\jetified-firebase-abt-21.1.0\AndroidManifest.xml:12:13-14:85
+88                android:name="com.google.firebase.components:com.google.firebase.abt.component.AbtRegistrar"
+88-->[com.google.firebase:firebase-abt:21.1.0] C:\Users\kakeru\.gradle\caches\transforms-2\files-2.1\e7348755f82b8bcc00de80ad0ef75efc\jetified-firebase-abt-21.1.0\AndroidManifest.xml:13:17-109
+89                android:value="com.google.firebase.components.ComponentRegistrar" />
+89-->[com.google.firebase:firebase-abt:21.1.0] C:\Users\kakeru\.gradle\caches\transforms-2\files-2.1\e7348755f82b8bcc00de80ad0ef75efc\jetified-firebase-abt-21.1.0\AndroidManifest.xml:14:17-82
+90        </service>
+91        <service
+91-->[androidx.room:room-runtime:2.3.0] C:\Users\kakeru\.gradle\caches\transforms-2\files-2.1\9fabe5c87221de858dcb30087bfdccda\room-runtime-2.3.0\AndroidManifest.xml:25:9-28:40
+92            android:name="androidx.room.MultiInstanceInvalidationService"
+92-->[androidx.room:room-runtime:2.3.0] C:\Users\kakeru\.gradle\caches\transforms-2\files-2.1\9fabe5c87221de858dcb30087bfdccda\room-runtime-2.3.0\AndroidManifest.xml:26:13-74
+93            android:directBootAware="true"
+93-->[androidx.room:room-runtime:2.3.0] C:\Users\kakeru\.gradle\caches\transforms-2\files-2.1\9fabe5c87221de858dcb30087bfdccda\room-runtime-2.3.0\AndroidManifest.xml:27:13-43
+94            android:exported="false" />
+94-->[androidx.room:room-runtime:2.3.0] C:\Users\kakeru\.gradle\caches\transforms-2\files-2.1\9fabe5c87221de858dcb30087bfdccda\room-runtime-2.3.0\AndroidManifest.xml:28:13-37
+95
+96        <receiver
+96-->[com.google.firebase:firebase-messaging:23.1.1] C:\Users\kakeru\.gradle\caches\transforms-2\files-2.1\e18860313e3851d9c4e8aef569f97db9\jetified-firebase-messaging-23.1.1\AndroidManifest.xml:31:9-38:20
+97            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+97-->[com.google.firebase:firebase-messaging:23.1.1] C:\Users\kakeru\.gradle\caches\transforms-2\files-2.1\e18860313e3851d9c4e8aef569f97db9\jetified-firebase-messaging-23.1.1\AndroidManifest.xml:32:13-78
+98            android:exported="true"
+98-->[com.google.firebase:firebase-messaging:23.1.1] C:\Users\kakeru\.gradle\caches\transforms-2\files-2.1\e18860313e3851d9c4e8aef569f97db9\jetified-firebase-messaging-23.1.1\AndroidManifest.xml:33:13-36
+99            android:permission="com.google.android.c2dm.permission.SEND" >
+99-->[com.google.firebase:firebase-messaging:23.1.1] C:\Users\kakeru\.gradle\caches\transforms-2\files-2.1\e18860313e3851d9c4e8aef569f97db9\jetified-firebase-messaging-23.1.1\AndroidManifest.xml:34:13-73
+100            <intent-filter>
+100-->[com.google.firebase:firebase-messaging:23.1.1] C:\Users\kakeru\.gradle\caches\transforms-2\files-2.1\e18860313e3851d9c4e8aef569f97db9\jetified-firebase-messaging-23.1.1\AndroidManifest.xml:35:13-37:29
+101                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+101-->[com.google.firebase:firebase-messaging:23.1.1] C:\Users\kakeru\.gradle\caches\transforms-2\files-2.1\e18860313e3851d9c4e8aef569f97db9\jetified-firebase-messaging-23.1.1\AndroidManifest.xml:36:17-81
+101-->[com.google.firebase:firebase-messaging:23.1.1] C:\Users\kakeru\.gradle\caches\transforms-2\files-2.1\e18860313e3851d9c4e8aef569f97db9\jetified-firebase-messaging-23.1.1\AndroidManifest.xml:36:25-78
+102            </intent-filter>
+103        </receiver>
+104        <!--
+105             FirebaseMessagingService performs security checks at runtime,
+106             but set to not exported to explicitly avoid allowing another app to call it.
+107        -->
+108        <service
+108-->[com.google.firebase:firebase-messaging:23.1.1] C:\Users\kakeru\.gradle\caches\transforms-2\files-2.1\e18860313e3851d9c4e8aef569f97db9\jetified-firebase-messaging-23.1.1\AndroidManifest.xml:44:9-51:19
+109            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+109-->[com.google.firebase:firebase-messaging:23.1.1] C:\Users\kakeru\.gradle\caches\transforms-2\files-2.1\e18860313e3851d9c4e8aef569f97db9\jetified-firebase-messaging-23.1.1\AndroidManifest.xml:45:13-82
+110            android:directBootAware="true"
+110-->[com.google.firebase:firebase-messaging:23.1.1] C:\Users\kakeru\.gradle\caches\transforms-2\files-2.1\e18860313e3851d9c4e8aef569f97db9\jetified-firebase-messaging-23.1.1\AndroidManifest.xml:46:13-43
+111            android:exported="false" >
+111-->[com.google.firebase:firebase-messaging:23.1.1] C:\Users\kakeru\.gradle\caches\transforms-2\files-2.1\e18860313e3851d9c4e8aef569f97db9\jetified-firebase-messaging-23.1.1\AndroidManifest.xml:47:13-37
+112            <intent-filter android:priority="-500" >
+112-->[com.google.firebase:firebase-messaging:23.1.1] C:\Users\kakeru\.gradle\caches\transforms-2\files-2.1\e18860313e3851d9c4e8aef569f97db9\jetified-firebase-messaging-23.1.1\AndroidManifest.xml:48:13-50:29
+112-->[com.google.firebase:firebase-messaging:23.1.1] C:\Users\kakeru\.gradle\caches\transforms-2\files-2.1\e18860313e3851d9c4e8aef569f97db9\jetified-firebase-messaging-23.1.1\AndroidManifest.xml:48:28-51
+113                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+113-->[com.google.firebase:firebase-messaging:23.1.1] C:\Users\kakeru\.gradle\caches\transforms-2\files-2.1\e18860313e3851d9c4e8aef569f97db9\jetified-firebase-messaging-23.1.1\AndroidManifest.xml:49:17-78
+113-->[com.google.firebase:firebase-messaging:23.1.1] C:\Users\kakeru\.gradle\caches\transforms-2\files-2.1\e18860313e3851d9c4e8aef569f97db9\jetified-firebase-messaging-23.1.1\AndroidManifest.xml:49:25-75
+114            </intent-filter>
+115        </service>
+116
+117        <provider
+117-->[com.google.firebase:firebase-common:20.2.0] C:\Users\kakeru\.gradle\caches\transforms-2\files-2.1\6f966732780f95878af82cf7ed15d58a\jetified-firebase-common-20.2.0\AndroidManifest.xml:25:9-30:39
+118            android:name="com.google.firebase.provider.FirebaseInitProvider"
+118-->[com.google.firebase:firebase-common:20.2.0] C:\Users\kakeru\.gradle\caches\transforms-2\files-2.1\6f966732780f95878af82cf7ed15d58a\jetified-firebase-common-20.2.0\AndroidManifest.xml:26:13-77
+119            android:authorities="gd.rf.konggdev.cookieclicker.firebaseinitprovider"
+119-->[com.google.firebase:firebase-common:20.2.0] C:\Users\kakeru\.gradle\caches\transforms-2\files-2.1\6f966732780f95878af82cf7ed15d58a\jetified-firebase-common-20.2.0\AndroidManifest.xml:27:13-72
+120            android:directBootAware="true"
+120-->[com.google.firebase:firebase-common:20.2.0] C:\Users\kakeru\.gradle\caches\transforms-2\files-2.1\6f966732780f95878af82cf7ed15d58a\jetified-firebase-common-20.2.0\AndroidManifest.xml:28:13-43
+121            android:exported="false"
+121-->[com.google.firebase:firebase-common:20.2.0] C:\Users\kakeru\.gradle\caches\transforms-2\files-2.1\6f966732780f95878af82cf7ed15d58a\jetified-firebase-common-20.2.0\AndroidManifest.xml:29:13-37
+122            android:initOrder="100" />
+122-->[com.google.firebase:firebase-common:20.2.0] C:\Users\kakeru\.gradle\caches\transforms-2\files-2.1\6f966732780f95878af82cf7ed15d58a\jetified-firebase-common-20.2.0\AndroidManifest.xml:30:13-36
+123
+124        <activity
+124-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\kakeru\.gradle\caches\transforms-2\files-2.1\f15018a6ecb42df445b9624f81a527ba\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+125            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+125-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\kakeru\.gradle\caches\transforms-2\files-2.1\f15018a6ecb42df445b9624f81a527ba\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+126            android:exported="false"
+126-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\kakeru\.gradle\caches\transforms-2\files-2.1\f15018a6ecb42df445b9624f81a527ba\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+127            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+127-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\kakeru\.gradle\caches\transforms-2\files-2.1\f15018a6ecb42df445b9624f81a527ba\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+128
+129        <receiver
+129-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\kakeru\.gradle\caches\transforms-2\files-2.1\42e3c21a0c9f6453ebfc493f9dd17e8c\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:29:9-33:20
+130            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+130-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\kakeru\.gradle\caches\transforms-2\files-2.1\42e3c21a0c9f6453ebfc493f9dd17e8c\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:30:13-85
+131            android:enabled="true"
+131-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\kakeru\.gradle\caches\transforms-2\files-2.1\42e3c21a0c9f6453ebfc493f9dd17e8c\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:31:13-35
+132            android:exported="false" >
+132-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\kakeru\.gradle\caches\transforms-2\files-2.1\42e3c21a0c9f6453ebfc493f9dd17e8c\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:32:13-37
+133        </receiver>
+134
+135        <service
+135-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\kakeru\.gradle\caches\transforms-2\files-2.1\42e3c21a0c9f6453ebfc493f9dd17e8c\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:35:9-38:40
+136            android:name="com.google.android.gms.measurement.AppMeasurementService"
+136-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\kakeru\.gradle\caches\transforms-2\files-2.1\42e3c21a0c9f6453ebfc493f9dd17e8c\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:36:13-84
+137            android:enabled="true"
+137-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\kakeru\.gradle\caches\transforms-2\files-2.1\42e3c21a0c9f6453ebfc493f9dd17e8c\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:37:13-35
+138            android:exported="false" />
+138-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\kakeru\.gradle\caches\transforms-2\files-2.1\42e3c21a0c9f6453ebfc493f9dd17e8c\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:38:13-37
+139        <service
+139-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\kakeru\.gradle\caches\transforms-2\files-2.1\42e3c21a0c9f6453ebfc493f9dd17e8c\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:39:9-43:72
+140            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+140-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\kakeru\.gradle\caches\transforms-2\files-2.1\42e3c21a0c9f6453ebfc493f9dd17e8c\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:40:13-87
+141            android:enabled="true"
+141-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\kakeru\.gradle\caches\transforms-2\files-2.1\42e3c21a0c9f6453ebfc493f9dd17e8c\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:41:13-35
+142            android:exported="false"
+142-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\kakeru\.gradle\caches\transforms-2\files-2.1\42e3c21a0c9f6453ebfc493f9dd17e8c\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:42:13-37
+143            android:permission="android.permission.BIND_JOB_SERVICE" />
+143-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\kakeru\.gradle\caches\transforms-2\files-2.1\42e3c21a0c9f6453ebfc493f9dd17e8c\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:43:13-69
+144
+145        <meta-data
+145-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\kakeru\.gradle\caches\transforms-2\files-2.1\07fc6e623845b14beb217cf58bbe3689\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+146            android:name="com.google.android.gms.version"
+146-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\kakeru\.gradle\caches\transforms-2\files-2.1\07fc6e623845b14beb217cf58bbe3689\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+147            android:value="@integer/google_play_services_version" />
+147-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\kakeru\.gradle\caches\transforms-2\files-2.1\07fc6e623845b14beb217cf58bbe3689\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+148
+149        <service
+149-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\kakeru\.gradle\caches\transforms-2\files-2.1\980c315bd33350de7401884d32375e08\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:28:9-34:19
+150            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+150-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\kakeru\.gradle\caches\transforms-2\files-2.1\980c315bd33350de7401884d32375e08\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:29:13-103
+151            android:exported="false" >
+151-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\kakeru\.gradle\caches\transforms-2\files-2.1\980c315bd33350de7401884d32375e08\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:30:13-37
+152            <meta-data
+152-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\kakeru\.gradle\caches\transforms-2\files-2.1\980c315bd33350de7401884d32375e08\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:31:13-33:39
+153                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+153-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\kakeru\.gradle\caches\transforms-2\files-2.1\980c315bd33350de7401884d32375e08\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:32:17-94
+154                android:value="cct" />
+154-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\kakeru\.gradle\caches\transforms-2\files-2.1\980c315bd33350de7401884d32375e08\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:33:17-36
+155        </service>
+156        <service
+156-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\kakeru\.gradle\caches\transforms-2\files-2.1\682b2529c1c37659a0be89f040d35a85\jetified-transport-runtime-3.1.8\AndroidManifest.xml:26:9-30:19
+157            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+157-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\kakeru\.gradle\caches\transforms-2\files-2.1\682b2529c1c37659a0be89f040d35a85\jetified-transport-runtime-3.1.8\AndroidManifest.xml:27:13-117
+158            android:exported="false"
+158-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\kakeru\.gradle\caches\transforms-2\files-2.1\682b2529c1c37659a0be89f040d35a85\jetified-transport-runtime-3.1.8\AndroidManifest.xml:28:13-37
+159            android:permission="android.permission.BIND_JOB_SERVICE" >
+159-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\kakeru\.gradle\caches\transforms-2\files-2.1\682b2529c1c37659a0be89f040d35a85\jetified-transport-runtime-3.1.8\AndroidManifest.xml:29:13-69
+160        </service>
+161
+162        <receiver
+162-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\kakeru\.gradle\caches\transforms-2\files-2.1\682b2529c1c37659a0be89f040d35a85\jetified-transport-runtime-3.1.8\AndroidManifest.xml:32:9-34:40
+163            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+163-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\kakeru\.gradle\caches\transforms-2\files-2.1\682b2529c1c37659a0be89f040d35a85\jetified-transport-runtime-3.1.8\AndroidManifest.xml:33:13-132
+164            android:exported="false" />
+164-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\kakeru\.gradle\caches\transforms-2\files-2.1\682b2529c1c37659a0be89f040d35a85\jetified-transport-runtime-3.1.8\AndroidManifest.xml:34:13-37
+165    </application>
+166
+167</manifest>

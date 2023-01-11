@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+<!--    <com.google.android.material.tabs.TabLayout-->
+<!--        android:id="@+id/tablayoutFragment"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" >-->
+<!--        <com.google.android.material.tabs.TabItem-->
+<!--            android:id="@+id/click"-->
+<!--            android:text="🍪點擊"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="match_parent"/>-->
+<!--        <com.google.android.material.tabs.TabItem-->
+<!--            android:id="@+id/upgrade"-->
+<!--            android:text="🛒升級"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="match_parent"/>-->
+
+<!--        <com.google.android.material.tabs.TabItem-->
+<!--            android:id="@+id/setting"-->
+<!--            android:text="📱設定"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="match_parent"/>-->
+
+<!--    </com.google.android.material.tabs.TabLayout>-->
+    <Button
+        android:id="@+id/clickbutton"
+        android:layout_width="100dp"
+        android:layout_height="81dp"
+        android:text="🍪點擊"
+        android:textSize="15sp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toStartOf="@+id/upgradeButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/container" />
+    <Button
+        android:id="@+id/upgradeButton"
+        android:layout_width="100dp"
+        android:layout_height="81dp"
+        android:backgroundTint="#EE6E1E05"
+        android:text="🛒升級"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/container" />
+    <Button
+        android:id="@+id/settingsButton"
+        android:layout_width="100dp"
+        android:layout_height="81dp"
+        android:layout_marginEnd="4dp"
+        android:backgroundTint="#EE2E2C2B"
+        android:text="📱設定"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/upgradeButton"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.211" />
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="25dp">
+
+
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/rank"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="#EE6E1E05"
+        android:text="排行榜"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.89" />
+    <Button
+        android:id="@+id/leave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#EE6E1E05"
+        android:text="離開"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+<!--    <FrameLayout-->
+<!--        android:id="@+id/container2"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        />-->
+</androidx.constraintlayout.widget.ConstraintLayout>
